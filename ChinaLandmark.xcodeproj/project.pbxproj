@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD54F14A2428438D00FC2965 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54F1492428438D00FC2965 /* UserData.swift */; };
 		CDE6A1D72427441300B19D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A1D62427441300B19D0B /* AppDelegate.swift */; };
 		CDE6A1D92427441300B19D0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A1D82427441300B19D0B /* SceneDelegate.swift */; };
 		CDE6A1DB2427441300B19D0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A1DA2427441300B19D0B /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD54F1492428438D00FC2965 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		CDE6A1D32427441300B19D0B /* ChinaLandmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaLandmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6A1D62427441300B19D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE6A1D82427441300B19D0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE6A1F0242774D100B19D0B /* Lankmark.swift */,
+				CD54F1492428438D00FC2965 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				CDE6A1F1242774D100B19D0B /* Lankmark.swift in Sources */,
 				CDE6A1EB2427452300B19D0B /* LandmarkDetail.swift in Sources */,
 				CDE6A1D72427441300B19D0B /* AppDelegate.swift in Sources */,
+				CD54F14A2428438D00FC2965 /* UserData.swift in Sources */,
 				CDE6A1F324277ABC00B19D0B /* LandmarkList.swift in Sources */,
 				CDE6A1ED24274FCC00B19D0B /* MapView.swift in Sources */,
 				CDE6A1D92427441300B19D0B /* SceneDelegate.swift in Sources */,

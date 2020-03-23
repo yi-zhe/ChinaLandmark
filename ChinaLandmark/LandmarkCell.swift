@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct LandmarkCell: View {
-
+    
     var landmark: Landmark
-
+    
     var body: some View {
         HStack {
             Image(landmark.imageName)
@@ -20,6 +20,11 @@ struct LandmarkCell: View {
                 .cornerRadius(10)
             Text(landmark.name)
             Spacer()
+
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
